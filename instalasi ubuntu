@@ -1,0 +1,102 @@
+Debian adalah sistem operasi Linux yang:
+
+* Stabil
+* Ringan
+* Gratis
+* Banyak dipakai untuk **server, jaringan, dan belajar Linux**
+
+---
+
+# 🧰 Yang perlu disiapkan
+
+1. Flashdisk minimal **8 GB**
+2. File ISO Debian
+   👉 Download dari: [https://www.debian.org/download](https://www.debian.org/download)
+3. Rufus (Windows) / BalenaEtcher
+4. Laptop / PC
+
+---
+
+# 🔥 Langkah 1: Buat Flashdisk Bootable
+
+Pakai **Rufus**:
+
+* Device: pilih flashdisk
+* Boot selection: pilih ISO Debian
+* Partition scheme:
+
+  * GPT → laptop baru (UEFI)
+  * MBR → laptop lama (Legacy)
+* Klik **Start**
+
+---
+
+# ⚡ Langkah 2: Boot dari Flashdisk
+
+Colokkan flashdisk
+Nyalakan laptop sambil tekan:
+
+* F12 / Esc / F9 / F10 (tergantung merk)
+  Pilih **USB Boot**
+
+---
+
+# 💻 Langkah 3: Proses Instalasi Debian
+
+Pilih:
+
+* **Graphical install** (lebih mudah)
+  atau
+* **Install** (mode teks)
+
+Lalu ikuti urutan ini:
+
+1. Pilih bahasa
+2. Pilih negara
+3. Pilih keyboard
+4. Set hostname (nama komputer)
+   contoh: `debian-pc`
+5. Set password root
+6. Buat user baru
+7. Partisi disk:
+
+   * Pemula → pilih
+     👉 **Guided - use entire disk**
+8. Pilih desktop:
+
+   * ✔ Debian desktop environment
+   * ✔ GNOME (default)
+   * ✔ Standard system utilities
+
+---
+
+# ⏳ Tunggu instalasi selesai
+
+Setelah selesai:
+
+* Cabut flashdisk
+* Restart
+* Debian siap dipakai 🎉
+
+---
+
+# 🔧 Setelah login pertama
+
+Buka terminal dan jalankan:
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
+
+Untuk install aplikasi:
+
+```bash
+sudo apt install nama_aplikasi
+```
+
+Contoh:
+
+```bash
+sudo apt install vlc
+sudo apt install firefox-esr

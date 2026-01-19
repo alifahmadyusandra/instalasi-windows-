@@ -1,0 +1,69 @@
+
+🧰 Yang perlu disiapkan
+Flashdisk minimal 8 GB
+
+File ISO Windows (Windows 10 / 11)
+
+Rufus (aplikasi untuk membuat flashdisk bootable)
+
+Laptop/PC yang mau diinstal
+
+🔥 Langkah 1: Buat Flashdisk Bootable
+Download:
+
+Windows ISO (dari situs resmi Microsoft)
+
+Rufus
+
+Colokkan flashdisk
+
+Buka Rufus:
+
+Device: pilih flashdisk
+
+Boot selection: pilih file ISO Windows
+
+Partition scheme:
+
+GPT → untuk laptop baru (UEFI)
+
+MBR → untuk laptop lama (Legacy)
+
+Klik START → tunggu sampai selesai
+
+⚡ Langkah 2: Masuk Boot Menu
+Colokkan flashdisk ke laptop yang mau diinstal
+
+Nyalakan laptop sambil tekan tombol:
+
+F12 (Acer, Lenovo, Dell)
+
+F9 (HP)
+
+Esc (Asus)
+
+F2 kadang untuk masuk BIOS
+
+Pilih boot dari USB / Flashdisk
+
+💻 Langkah 3: Proses Instalasi Windows
+Pilih bahasa → Next
+
+Klik Install Now
+
+Pilih:
+
+I don’t have a product key (kalau belum aktivasi)
+
+Pilih versi Windows (Home/Pro)
+
+Pilih Custom: Install Windows only
+
+Hapus partisi lama (opsional, hati-hati data hilang)
+
+Pilih drive kosong → Next
+
+Tunggu sampai selesai (10–30 menit)
+
+✅ Setelah selesai
+Laptop akan restart dan masuk ke pengaturan awal Windows.
